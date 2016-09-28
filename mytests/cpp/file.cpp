@@ -2,7 +2,7 @@
 #include "%{HdrFileName}"
 %{JS: Cpp.openNamespaces('%{Class}')}
 
-%{CN}::%{CN}(QObject *parent) : QObject(parent)
+Test%{CN}::Test%{CN}(QObject *parent) : QObject(parent)
 {
 
 }

@@ -8,11 +8,11 @@
       )}\
 
 %{JS: Cpp.openNamespaces('%{Class}')}\
-class %{CN} : public QObject
+class Test%{CN} : public QObject
 {
      Q_OBJECT
 public:
-    explicit %{CN}(QObject *parent = 0);
+    explicit Test%{CN}(QObject *parent = 0);
 
 private slots:
 
